@@ -1,54 +1,57 @@
- h1 {
+h1 {
 	text-align: center;
 }
 
 p {
 	text-align: center;
 	color: red;
+  margin: 20px;
+  margin-bottom: 200px;
 }
 
 img {
 	background-color: yellow;
 }
-
 .flex-rectangle{
     width: %;
     background: #00ffff;
-    margin: 70px;
-}
+  margin: 50px;
 
+    
+}
 .flex-rectangle:before{
     content: "";
     display: block;
-    padding-top: 50%;
+    padding-top: 2%;
 }
 
 .circle-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin:px;
+  margin:15px;
   padding:10px;
   
+ 
 }
-
 .circle {
   -webkit-box-flex: 0.09;
       -ms-flex: 0.09;
           flex: 0.09;
-  background: 000000;
+  background: #ffffff;
   border-radius: 50%;
   margin: auto;
-  padding: 10px;
+  padding: 20px;
   
 }
-
 .circle:before {
   content: "";
   display: block;
-  padding-top: 100%; 
+  padding-top: 100%;
+ 
   
 }
+
 
 
 
