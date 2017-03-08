@@ -1,10 +1,46 @@
 h1 {
 	text-align: center;
 }
+
 p {
 	text-align: center;
 	color: red;
 }
+
 img {
 	background-color: yellow;
 }
+.flex-rectangle{
+    width: 80%;
+    background: #ca0164;
+    margin: 80px;
+}
+.flex-rectangle:before{
+    content: "";
+    display: block;
+    padding-top: 50%;
+}
+
+
+.circle-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: center;
+}
+.circle {
+  -webkit-box-flex: 0.3;
+      -ms-flex: 0.3;
+          flex: 0.3;
+  background: #bada55;
+  border-radius: 50%;
+  margin: 25px;
+}
+.circle:before {
+  content: "";
+  display: block;
+  padding-top: 100%; /* ratio of 1:1*/
+}
+
+
+
