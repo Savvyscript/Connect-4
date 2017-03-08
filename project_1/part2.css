@@ -1,4 +1,4 @@
-h1 {
+ h1 {
 	text-align: center;
 }
 
@@ -10,36 +10,44 @@ p {
 img {
 	background-color: yellow;
 }
+
 .flex-rectangle{
-    width: 80%;
-    background: #ca0164;
-    margin: 80px;
+    width: %;
+    background: #00ffff;
+    margin: 70px;
 }
+
 .flex-rectangle:before{
     content: "";
     display: block;
     padding-top: 50%;
 }
 
-
 .circle-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  display: center;
+  margin:px;
+  padding:10px;
+  
 }
+
 .circle {
-  -webkit-box-flex: 0.3;
-      -ms-flex: 0.3;
-          flex: 0.3;
-  background: #bada55;
+  -webkit-box-flex: 0.09;
+      -ms-flex: 0.09;
+          flex: 0.09;
+  background: 000000;
   border-radius: 50%;
-  margin: 25px;
+  margin: auto;
+  padding: 10px;
+  
 }
+
 .circle:before {
   content: "";
   display: block;
-  padding-top: 100%; /* ratio of 1:1*/
+  padding-top: 100%; 
+  
 }
 
 
