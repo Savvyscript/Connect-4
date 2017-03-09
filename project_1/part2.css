@@ -1,12 +1,12 @@
 body {
 	/*background-color: #ffffff;*/
-	background-image:url(paper.jpg);
-	/*z-index: 1;*/
+	background-image: url('images/paper.jpg');
+	background-size: 100%;
 }
 
 .pic {
       margin: auto;
-      z-index: -1;
+      
 }
 
 #board {
@@ -34,6 +34,7 @@ body {
 h1{
   text-align: center;
   font-size: 12;
+  color:red;
 }
 
 h2{
