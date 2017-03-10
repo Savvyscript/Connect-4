@@ -9,6 +9,27 @@ body {
       
 }
 
+.score-board {
+  text-align: center;
+  padding: 25px;
+}
+.player {
+  display: inline-block;
+  padding: 15px;
+}
+.player h4 {
+  font-weight: bold;
+  color: red;
+}
+.score-box {
+  border: 3px solid black;
+  border-radius: 25px;
+  padding: 30px;
+  
+  color: #074f0a;
+}
+ 
+ /*// gameboard //*/
 #board {
 	padding: 2em;
 	background-color: #65F0F7;
@@ -58,6 +79,8 @@ p {
 	color: #FFFFFF;
 }
 
+/*// player chips, red or black //*/
+
 .player1 {
 	color: #D91C1C;
 	background-color: #D91C1C;
@@ -83,88 +106,3 @@ td {
 	top: -7em;
 
 }
-
-
-
-/*h1 {
-	text-align: center;
-  
-  \\ Title centered \\
-}
-
-p {
-	text-align: center;
-	color: red;
-  margin: 20px;
-  margin-bottom: 200px;
-  
-  \\ paragraph centered \\
-}
-
-.flex-rectangle {
-    width: %;
-    background: #00ffff;
-  margin: 50px;
-  padding:5px;
-  
- // light blue background //
-}
-
-.flex-rectangle:before {
-    content: "";
-    display: block;
-    padding-top: 2%;
-}
-
-.circle-wrap {
-  display: flex;
-	flex-wrap: wrap;
-	flex-grow: 1;
-	flex-shrink:1;
-	justify-content: center;
-    margin:15px;
-  // circle shape //
-}
-
-.circle {
-  display:flex; 
-  flex: .09;
-  background: #ffffff;
-  border-radius: 50%;
-  margin: auto;
-  padding: 10px;
-  
-  
-}
-.circle:before {
-  content: "";
-  display: block;
-  padding-top: 100%; 
-  
-}
- 
-.black-chip  {
-  display: flex;
-  flex: .05;
-  border-radius: 50px;
-	width: 100px;
-	height: 100px;
-	background: black;
-	
-}
-
-.red-chip  {
-  display: flex;
-  flex: .05;
-  border-radius: 80px;
-  width: 100px;
-  height: 100px;
-  background: red;
-}
-
-
-
-
-
-
-*/
