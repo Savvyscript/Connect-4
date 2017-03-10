@@ -15,6 +15,17 @@ A two player game using red or black chips dropped in place on the gameboard whi
 -  Winner.
     The red and black player chips take up one space on the board till four red or four black chips are lined up right to left,  left to right or diagonally. Once this happens the screen shows the chips with a winner and option to play again.
 
+ Trello account ![trello1](https://trello.com/b/qfZhwTfN/wdi-project-1) 
+
+![wireframe](https://ga-students.slack.com/messages/atl-wdi9-general/convo/C4BJ8G285-1488492393.000203/)
+
+
+
+
+
+
+
+
 
 
 
