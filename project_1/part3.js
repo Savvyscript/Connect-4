@@ -4,7 +4,7 @@ var numRow = 6;
 var numCol = 7;
 var end = false;    //Is the game over?
 var turn = 0;   //A turn counter
-var record = [0, 0];    //Record each players wins
+var record = [0, 1];    //Record each players wins
 
 $(document).ready( function() {
 	
@@ -64,6 +64,7 @@ $(document).ready( function() {
         }
     });
 
+         // hover over the spaces //
     $('.sizingButton').hover(
         function() {
             $(this).animate({fontSize: '2em'}, 200).css('color', 'yellow');
@@ -283,10 +284,12 @@ function endAnimation(board) {
     if(board.$name[end[0][0]][end[0][1]].hasClass('player1')) {
         $('title').text("Player 1 Wins!");
         record[0]++;
+        $('#player1Score').html(record[0]);
     }
     else {
         $('title').text("Player 2 Wins!");
         record[1]++;
+        $('#player2Score').html(record[1]);
     }
 
     var x = Math.floor(Math.random()*end.length);
@@ -354,7 +357,7 @@ function numberSpaces(board) {
                 if (value % 5 == 0) {
                    
                 }
-                else text = 'pick me';
+                else text = 'You rock';
             }
             else if (value % 5 == 0) {
                 text = 'winner';
