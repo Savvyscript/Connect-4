@@ -17,7 +17,7 @@ A two player game using red or black chips dropped in place on the gameboard whi
 
  Trello account [trello](https://trello.com/b/qfZhwTfN/wdi-project-1) 
 
-![wireframe1](projects/wireframe.jpg)
+![wireframe1](https://github.com/Savvyscript/connect-4/blob/master/project_1/images/Wireframe.JPG)
 
 
 
